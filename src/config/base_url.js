@@ -1,0 +1,4 @@
+export var base_url_movie = "https://api.themoviedb.org/3";
+
+export var tmdb_access_token =
+  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0YjVhMzA0Mjc3MmZjZGNmOWY4ZjMwMmI5ZTE4NDhiNyIsInN1YiI6IjYzODYxNDVhMjI5YWUyMTU5N2Q0YjFhNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.L4vZB0jEsd1LPtfXrj5suk7Mj834yzgKDzx5lvOdk1g";

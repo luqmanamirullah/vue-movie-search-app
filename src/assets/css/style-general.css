@@ -1,0 +1,46 @@
+.table>:not(caption)>*>*{
+    background-color: transparent !important;
+}
+
+.form-control{
+    box-shadow: none !important;
+}
+
+.input--general{
+    border-radius: 3.415px;
+    border: 0.854px solid #585859 !important;
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.btn__general--disabled:hover{
+    background-color: #6D75F6;
+}
+.btn__general:hover{
+    background-color: #473ff4;
+    color: #fff;
+    transition: .30s all;
+}
+.btn__general, .btn__general--disabled{
+    border-radius: 3.713px;
+    background-color: #6D75F6;
+    color: #fff;
+    transition: .30s all;
+}
+.cursor-default{
+    cursor: default !important;
+}
+.animation--rotate__el{
+    animation: rotate-animation 3s infinite linear;
+}
+
+@keyframes rotate-animation {
+	0% {
+		transform: rotate(0deg);
+  }
+  50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
